@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
@@ -9,11 +10,11 @@ public class assetData {
 		PrintWriter outputStream = null;
 		try // 
 		{
-			outputStream = new PrintWriter(fileName); /*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È²
-			ï¿½Çµï¿½ï¿½Ñ´ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ÈµÉ¶ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½
+			outputStream = new PrintWriter(fileName); /*¿¹¿ÜÀûÀÎ »óÈ²
+			ÀÇµµÇÑ´ë·Î ÆÄÀÏ ¿¢¼¼½º°¡ ¾ÈµÉ¶§°¡ ÀÖÀ» ¼ö ÀÖ´Ù
 			*/ 
 		}
-		catch (FileNotFoundException e) /*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ÈµÇ¾ï¿½ï¿½ï¿½ï¿½ï¿½?*/
+		catch (FileNotFoundException e) /*ÆÄÀÏÀ» ¿­·Á°í ÇßÀ»¶§ Àß ¾ÈµÇ¾úÀ»¶§?*/
 		{
 			System.out.println("Error opening the file " + fileName);
 			System.exit(0);
