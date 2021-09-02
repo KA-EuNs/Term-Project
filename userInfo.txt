@@ -1,0 +1,2 @@
+    [이름]	         [ID]      [PW] [Phone number]
+LeeHaJeong 202035375 1234 010-9118-4236
